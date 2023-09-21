@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking</title>
+</head>
+<body>
+    <input 
+    type="text"
+    id="model"
+    placeholder="Vehicle model: "  
+    autocomplete="off"
+    /> <!--O placeholder colocar um rotulo dentro do input-->
+    <input 
+    type="text"
+    id="plate"
+    placeholder="vehicle license plate: "  
+    autocomplete="off"
+    />
+    <button id="register">Register your vehicle</button>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Your vehicle</th>
+                <th>Vehicle model</th>
+                <th>License plate</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="parking"></tbody>
+    </table>
+
+    <script src="../types/script.js"></script> <!--Lembrar de mudar para a pasta JS-->
+</body>
+</html>
